@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>steal</title>
+    <head>
+        <script>
+            var amount = 1250;
+            var balance = 10500;
+            var cameraOn = true;
+            function steal(balance, amount) {
+                cameraOn = false;
+                if (amount < balance) {
+                  var  balance = balance - amount; 
+                }
+                cameraOn = true;
+                return balance;
+                            }
+            var amountt = steal(balance, amount);
+            alert("Criminal: you stole " + amount + "!");
+            console.log(amountt);
+        </script>
+    </head>
+</html>
