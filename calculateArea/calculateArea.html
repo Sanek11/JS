@@ -4,18 +4,17 @@
     <title>Area</title>
     <head>
         <script>
-            function calculateArea(r) {
-                var area;
-                if (r <= 0) {
+
+            function calculateArea(radius) {
+                if (radius <= 0)
                     return 0;
-                } else {
-                    area = Math.PI * r * r;
-                    return area;
-                }
+
+                return Math.PI * radius * radius;
             }
-            var radius = 5.2;
-            var theArea = calculateArea(radius);
-            console.log("The area is: " + theArea);
+
+            console.log("The area is: " + calculateArea(radius=5.2));
+            console.log("The area is: " + calculateArea(radius=-1));
+
         </script>
     </head>
    
