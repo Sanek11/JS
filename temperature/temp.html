@@ -4,22 +4,25 @@
     <title>whatShallIWear</title>
     <head>
         <script>
-            function whatShallIWear (temp) {
+
+            function whatShallIWear(temp) {
                 if (temp < 60) {
                     console.log("Wear a jacket");
-                }
-                else if (temp < 70) {
-                    console.log("Wear a sweater");
-                }
-                else {
-                    console.log("Wear t-shirt");
+                    return;
                 }
 
+                if (temp < 70) {
+                    console.log("Wear a sweater");
+                    return;
+                }
+
+                console.log("Wear t-shirt");
             }
-            whatShallIWear(50);
-            whatShallIWear(80);
-            whatShallIWear(60);
+
+            whatShallIWear(temp=50);
+            whatShallIWear(temp=60);
+            whatShallIWear(temp=80);
+
         </script>
     </head>
-   
 </html>
