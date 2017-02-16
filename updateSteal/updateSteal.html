@@ -4,20 +4,29 @@
     <title>steal</title>
     <head>
         <script>
-            var amount = 1250;
-            var balance = 10500;
-            var cameraOn = true;
+
+            var amount = 1250,
+                balance = 10500,
+                cameraOn = true;
+
             function steal(balance, amount) {
                 cameraOn = false;
+
                 if (amount < balance) {
-                  var  balance = balance - amount; 
+                    var  balance = balance - amount;
                 }
+
                 cameraOn = true;
+
                 return balance;
-                            }
-            var amountt = steal(balance, amount);
+            }
+
+            var stolen_amount = steal(balance, amount);
+
             alert("Criminal: you stole " + amount + "!");
-            console.log(amountt);
+
+            console.log(stolen_amount);
+
         </script>
     </head>
 </html>
