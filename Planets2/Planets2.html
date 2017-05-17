@@ -11,6 +11,8 @@
     <style>
 
         .redtext { color: red; }
+        
+        .greentext { color : green; }
 
     </style>
 
@@ -23,6 +25,14 @@
             planet.innerHTML = "Red Alert: hit by phaser fire!";
 
             planet.setAttribute("class", "redtext");
+            
+            var planet2 = document.getElementById("redplanet");
+            
+            planet2.setAttribute("class", "greentext");
+            
+            var planet3 = document.getElementById("blueplanet");
+            
+            planet3.setAttribute("class", "greentext");
 
         }
 
