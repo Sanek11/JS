@@ -1,14 +1,14 @@
-Содержимое:
+РЎРѕРґРµСЂР¶РёРјРѕРµ:
 ==========
 
-В этом репозитории хранятся файлы форматов html и javascript.
+Р’ СЌС‚РѕРј СЂРµРїРѕР·РёС‚РѕСЂРёРё С…СЂР°РЅСЏС‚СЃСЏ С„Р°Р№Р»С‹ С„РѕСЂРјР°С‚РѕРІ html Рё javascript.
 
-Цель:
+Р¦РµР»СЊ:
 ====
 
-В этом репозитории будут храниться примеры из книги "Изучаем программирование на Javascript".
+Р’ СЌС‚РѕРј СЂРµРїРѕР·РёС‚РѕСЂРёРё Р±СѓРґСѓС‚ С…СЂР°РЅРёС‚СЊСЃСЏ РїСЂРёРјРµСЂС‹ РёР· РєРЅРёРіРё "РР·СѓС‡Р°РµРј РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ РЅР° Javascript".
 
-Содержание: 
+РЎРѕРґРµСЂР¶Р°РЅРёРµ: 
 ==========
 
-another scoop, battleship, beer, cashInWallet, else, Joe, just a generic page, project1, scoops1, scoops2, bark, temperature, calculateArea, avatar, bake, smart mashine, steal, updateSteal, bubblegum, phrase-o-matic, hasBubbleGum, forBubbleGum, testBubbleGum, bubble most effective, objectdog, choiceauto, superSecretFile, Object-o-matic, eightBall, song, car park, carFuel, secretCode, greenplanet, Planets, MyPlaylist, Planets2.
+another scoop, battleship, beer, cashInWallet, else, Joe, just a generic page, project1, scoops1, scoops2, bark, temperature, calculateArea, avatar, bake, smart mashine, steal, updateSteal, bubblegum, phrase-o-matic, hasBubbleGum, forBubbleGum, testBubbleGum, bubble most effective, objectdog, choiceauto, superSecretFile, Object-o-matic, eightBall, song, car park, carFuel, secretCode, greenplanet, Planets, MyPlaylist, Planets2 .
