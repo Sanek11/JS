@@ -1,0 +1,28 @@
+<html>
+<meta charset="utf-8">
+    <script>
+
+        function stringUniq(s) 
+        {
+            for(var i = 0; i < s.length; i++)
+            {
+                var currentChar = s[i];
+                for(var u = i+1; u < s.length; u++)
+                {
+                    if (currentChar === s[u])
+                        return false;
+                }
+            };
+            
+            return true;
+        };
+        
+        var test1 = "qwe123";
+        var test2 = "qwertyq";
+        var test3 = "qwerrym";
+
+        console.log("Метод 1 исходная строка: "+test1 ,stringUniq(test1));
+        console.log("Метод 1 исходная строка: "+test2 ,stringUniq(test2));
+        console.log("Метод 1 исходная строка: "+test3 ,stringUniq(test3));
+    </script>    
+</html>    
